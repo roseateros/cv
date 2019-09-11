@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+        <style media="screen">
+    body {
+    	background: black;
+    	margin: 0;
+    }
+
+    h1,h2,h3, h4 {
+    	font-family: 'Lato', Helvetica, sans-serif;
+    	font-weight: 300;
+    	color: #48DA9B;
+    }
+    	h1 {
+    		font-size: 48px;
+    		font-weight: 300;
+    		margin: 20px 0;
+    	}
+    	h2 {
+    		font-size: 28px;
+    		margin: 32px 0 24px;
+    	}
+    	h3 {
+    		font-size: 24px;
+    	}
+    	h4 {
+    		font-size: 18px;
+    		font-weight: 400;
+    	}
+
+    blockquote {
+    	font-style: italic;
+    	margin: 25px 0;
+    	padding-left: 20px;
+
+    }
+
+    blockquote, p , a, li {
+    	font-family: 'Lato', Helvetica, sans-serif;
+    	font-weight: 300;
+    	font-size: 15px;
+    	color: #e4e3e8;
+    }
+
+    #main_container {
+    	width: 960px;
+    	margin: 0 auto;
+    }
+    	#header {
+    		height: 130px;
+    	}
+    		.header_logotype_container {
+    			width: 260px;
+    			height: 130px;
+    			float: left;
+    		}
+    		.header_menu_container {
+    			height: 130px;
+    			width: 699px;
+    			float: left;
+    		}
+    	#left_col {
+    		width: 260px;
+    		float: left;
+    	}
+    	#content_container {
+    		width: 699px;
+    		float: left;
+    	}
+    	#footer {
+    		width: 960px;
+    		height: 60px;
+    		display: inline-block;
+    	}
+
+    .logotype_name{
+    	text-transform: uppercase;
+    	font-size: 32px;
+    	margin: 43px 0 0;
+    }
+    .logotype_occupation{
+    	text-transform: uppercase;
+    	margin-top: 5px;
+    	color: #5ce2af;
+    	font-size: 14px;
+    	letter-spacing: 2px;
+    	padding-left: 7px;
+    }
+
+    #left_nav h2 {
+    	margin: 0;
+    	font-size: 24px;
+    }
+
+    .profile_frame{
+    	width: 230px;
+    	height: 260px;
+    	background: black;
+    	margin-top: 30px;
+    }
+    	.profile_picture{
+    		width: 210px;
+    		height: 210px;
+    		margin:10px;
+    	}
+
+    .hello_content,
+    .contact_details_content {
+    	margin-top: 25px;
+    }
+
+    .hello_content{
+    	width: 230px;
+    }
+    .contact_details_content h2 + p.purple{
+    	margin-top: 10px;
+    }
+    .contact_details_content p{
+    	margin: 0;
+    }
+    .contact_details_content p.purple{
+    	margin-top: 25px;
+    }
+
+    .send_message_button,
+    .special_button {
+    	margin-top: 25px;
+    	display: block;
+    	background: #48DA9B;
+    	width: 230px;
+    	height: 50px;
+    	position: relative;
+    	z-index: 1;
+    }
+    	.content {
+    	    text-align: center;
+    	    color: #04080b;
+    	    width: 100%;
+    	    height: 40px;
+    	    position: absolute;
+    	    z-index: 2;
+    	    font: 18px 'Lato', Arial, sans-serif;
+    	    margin: 0;
+    	    padding: 16px 0 0;
+          top: -4px;
+          bottom: 10px;
+    	}
+
+    .footer_name {
+    	font-style: italic;
+    	margin-top: 20px;
+    }
+
+
+
+        </style>
+    <title></title>
+  </head>
+  <body>
+    		<div id="main_container">
+          <div id="header">
+            <div class="header_logotype_container">
+              <h1 class="logotype_name"><span class="purple">Roshan</span></h1>
+              <h2 class="logotype_occupation">Junior Web Developer</h2>
+            </div>
+            <div class="header_menu_container">
+          </div>
+          <div id="left_col">
+            <div class="profile_frame">
+              <div><img class="profile_picture"src="https://avatars3.githubusercontent.com/u/40798339?s=400&v=4" alt=""></div>
+            </div>
+            <div class="hello_content">
+              <h2>Hello!</h2>
+              <p>I'm passionate about technology and human behavior, hardworker and a fast-learner with experience in around 10 different countries studying, working and volunteering.</p>
+            </div>
+            <div class="contact_details_content">
+              <h2>Contact details</h2>
+              <p class="purple">Phone:</p>
+              <p>+34631759138</p>
+              <p class="purple">Email:</p>
+              <p>roseate.kalu@gmail.com</p>
+              <p class="purple">Adress:</p>
+              <p>Basarrate</p>
+              <p>Bilbao, Spain</p>
+              <p>48004</p>
+            </div>
+            <a href="mailto:roseate.kalu@gmail.com" class="send_message_button">
+              <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+            </a>
+          </div>
+          <div id="content_container">
+            <div class="block">
+              <h1>Profile</h1>
+              <blockquote class="profile_quote">
+                <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
+                <p> - Jiddu Krishnamurti.</p>
+                <span class="entypo-quote"></span>
+              </blockquote>
+            </div>
+            <div class="block">
+              <h2>A few words about me</h2>
+              <p>Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to listen people stories and backgrounds and their different experiences around the world.</p>
+            </div>
+            <div class="block">
+              <h2>Philosophy</h2>
+              <p>I belive in ethic and moral not in imposed rules that you "have to" do or follow.</p>
+              <div class="philosophy_content">
+                <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving. Summarizing on several points:</p>
+                <ul>
+                  <li>Pragmatic</li>
+                  <li>Honest</li>
+                  <li>Respectful</li>
+                  <li>Open-minded</li>
+                  <li>Coherent</li>
+                </ul>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="last block">
+              <h2>Interests & Hobbies</h2>
+              <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
+              <ul>
+                <li>Visiting new places</li>
+                <li>Meeting people</li>
+                <li>Having new experiences</li>
+                <li>Hiking and Biking</li>
+                <li>Web Developing</li>
+                <li>Computer Gamming</li>
+                <li>Manga and Anime</li>
+              </ul>
+            </div>
+          </div>
+          <div class="clear"></div>
+          <div id="footer">
+            <p class="footer_name">Roshan Gautam CV 2019</p>
+          </div>
+    		</div>
+  </body>
+</html>
